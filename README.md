@@ -1,6 +1,6 @@
 #  作品集 - Skyfly
 
-![avatar](/preview01.gif)
+![avatar](/preview01.gif)
 ![avatar](/preview02.png)
 ![avatar](/preview03.png)
 
