@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8EC40C26E1C1B30046171B /* Portfolio_SkyflyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8EC40B26E1C1B30046171B /* Portfolio_SkyflyApp.swift */; };
+		4F8EC40E26E1C1B30046171B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8EC40D26E1C1B30046171B /* ContentView.swift */; };
+		4F8EC41026E1C1B40046171B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8EC40F26E1C1B40046171B /* Assets.xcassets */; };
+		4F8EC41326E1C1B40046171B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8EC41226E1C1B40046171B /* Preview Assets.xcassets */; };
+		4F8EC41B26E1EBD50046171B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8EC41A26E1EBD50046171B /* WelcomeView.swift */; };
+		4F8EC41D26E1EBDD0046171B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8EC41C26E1EBDD0046171B /* HomeView.swift */; };
+		4F8EC41F26E1EBFC0046171B /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8EC41E26E1EBFC0046171B /* TicketView.swift */; };
+		4FA90D6426E60158008E84BC /* MenuTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90D6326E60158008E84BC /* MenuTabView.swift */; };
+		4FA90D6626E60186008E84BC /* TralvelTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90D6526E60186008E84BC /* TralvelTagView.swift */; };
+		4FA90D6826E601B2008E84BC /* PintersetGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90D6726E601B2008E84BC /* PintersetGridView.swift */; };
+		4FA90D6A26E60CE2008E84BC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90D6926E60CE2008E84BC /* MainView.swift */; };
+		4FA90D6C26E60F1B008E84BC /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90D6B26E60F1B008E84BC /* FavoriteView.swift */; };
+		4FA90D6E26E60F26008E84BC /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90D6D26E60F26008E84BC /* PersonView.swift */; };
+		4FF7772026E9903A00A69E6D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF7771F26E9903A00A69E6D /* DataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F654CBE26F1CE3100BC35E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F8EC40826E1C1B30046171B /* Portfolio-Skyfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portfolio-Skyfly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8EC40B26E1C1B30046171B /* Portfolio_SkyflyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio_SkyflyApp.swift; sourceTree = "<group>"; };
+		4F8EC40D26E1C1B30046171B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F8EC40F26E1C1B40046171B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8EC41226E1C1B40046171B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F8EC41426E1C1B40046171B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8EC41A26E1EBD50046171B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4F8EC41C26E1EBDD0046171B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4F8EC41E26E1EBFC0046171B /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		4FA90D6326E60158008E84BC /* MenuTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabView.swift; sourceTree = "<group>"; };
+		4FA90D6526E60186008E84BC /* TralvelTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TralvelTagView.swift; sourceTree = "<group>"; };
+		4FA90D6726E601B2008E84BC /* PintersetGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintersetGridView.swift; sourceTree = "<group>"; };
+		4FA90D6926E60CE2008E84BC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4FA90D6B26E60F1B008E84BC /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		4FA90D6D26E60F26008E84BC /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		4FF7771F26E9903A00A69E6D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8EC40526E1C1B30046171B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8EC3FF26E1C1B30046171B = {
+			isa = PBXGroup;
+			children = (
+				4F654CBE26F1CE3100BC35E2 /* README.md */,
+				4F8EC40A26E1C1B30046171B /* Portfolio-Skyfly */,
+				4F8EC40926E1C1B30046171B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8EC40926E1C1B30046171B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8EC40826E1C1B30046171B /* Portfolio-Skyfly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8EC40A26E1C1B30046171B /* Portfolio-Skyfly */ = {
+			isa = PBXGroup;
+			children = (
+				4F8EC40B26E1C1B30046171B /* Portfolio_SkyflyApp.swift */,
+				4F8EC40D26E1C1B30046171B /* ContentView.swift */,
+				4F8EC41A26E1EBD50046171B /* WelcomeView.swift */,
+				4FA90D6926E60CE2008E84BC /* MainView.swift */,
+				4F8EC41C26E1EBDD0046171B /* HomeView.swift */,
+				4F8EC41E26E1EBFC0046171B /* TicketView.swift */,
+				4FA90D6326E60158008E84BC /* MenuTabView.swift */,
+				4FA90D6526E60186008E84BC /* TralvelTagView.swift */,
+				4FA90D6726E601B2008E84BC /* PintersetGridView.swift */,
+				4FA90D6B26E60F1B008E84BC /* FavoriteView.swift */,
+				4FA90D6D26E60F26008E84BC /* PersonView.swift */,
+				4FF7771F26E9903A00A69E6D /* DataSource.swift */,
+				4F8EC40F26E1C1B40046171B /* Assets.xcassets */,
+				4F8EC41426E1C1B40046171B /* Info.plist */,
+				4F8EC41126E1C1B40046171B /* Preview Content */,
+			);
+			path = "Portfolio-Skyfly";
+			sourceTree = "<group>";
+		};
+		4F8EC41126E1C1B40046171B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F8EC41226E1C1B40046171B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8EC40726E1C1B30046171B /* Portfolio-Skyfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8EC41726E1C1B40046171B /* Build configuration list for PBXNativeTarget "Portfolio-Skyfly" */;
+			buildPhases = (
+				4F8EC40426E1C1B30046171B /* Sources */,
+				4F8EC40526E1C1B30046171B /* Frameworks */,
+				4F8EC40626E1C1B30046171B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Portfolio-Skyfly";
+			productName = "Portfolio-Skyfly";
+			productReference = 4F8EC40826E1C1B30046171B /* Portfolio-Skyfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8EC40026E1C1B30046171B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4F8EC40726E1C1B30046171B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F8EC40326E1C1B30046171B /* Build configuration list for PBXProject "Portfolio-Skyfly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8EC3FF26E1C1B30046171B;
+			productRefGroup = 4F8EC40926E1C1B30046171B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8EC40726E1C1B30046171B /* Portfolio-Skyfly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8EC40626E1C1B30046171B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8EC41326E1C1B40046171B /* Preview Assets.xcassets in Resources */,
+				4F8EC41026E1C1B40046171B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8EC40426E1C1B30046171B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8EC40E26E1C1B30046171B /* ContentView.swift in Sources */,
+				4FA90D6A26E60CE2008E84BC /* MainView.swift in Sources */,
+				4FA90D6826E601B2008E84BC /* PintersetGridView.swift in Sources */,
+				4F8EC41F26E1EBFC0046171B /* TicketView.swift in Sources */,
+				4F8EC41D26E1EBDD0046171B /* HomeView.swift in Sources */,
+				4FA90D6E26E60F26008E84BC /* PersonView.swift in Sources */,
+				4FF7772026E9903A00A69E6D /* DataSource.swift in Sources */,
+				4FA90D6626E60186008E84BC /* TralvelTagView.swift in Sources */,
+				4F8EC41B26E1EBD50046171B /* WelcomeView.swift in Sources */,
+				4FA90D6426E60158008E84BC /* MenuTabView.swift in Sources */,
+				4FA90D6C26E60F1B008E84BC /* FavoriteView.swift in Sources */,
+				4F8EC40C26E1C1B30046171B /* Portfolio_SkyflyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F8EC41526E1C1B40046171B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8EC41626E1C1B40046171B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8EC41826E1C1B40046171B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Portfolio-Skyfly/Preview Content\"";
+				DEVELOPMENT_TEAM = TJ9X64MCA9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Portfolio-Skyfly/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zero.Portfolio-Skyfly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8EC41926E1C1B40046171B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Portfolio-Skyfly/Preview Content\"";
+				DEVELOPMENT_TEAM = TJ9X64MCA9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Portfolio-Skyfly/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zero.Portfolio-Skyfly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8EC40326E1C1B30046171B /* Build configuration list for PBXProject "Portfolio-Skyfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8EC41526E1C1B40046171B /* Debug */,
+				4F8EC41626E1C1B40046171B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8EC41726E1C1B40046171B /* Build configuration list for PBXNativeTarget "Portfolio-Skyfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8EC41826E1C1B40046171B /* Debug */,
+				4F8EC41926E1C1B40046171B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8EC40026E1C1B30046171B /* Project object */;
+}
